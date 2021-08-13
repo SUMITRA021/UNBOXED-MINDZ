@@ -1,0 +1,95 @@
+ul li
+{
+    float: left;
+}
+
+ul li img 
+{
+    float: right;
+}
+
+
+
+hr { 
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  } 
+
+.card-deck .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow:2px 2px 3px 2px #fdeda3;
+    transition: 0.9s;
+    padding: 5px 10px 5px;
+    border-radius: 15px;
+    width: fit-content;
+    block-size: fit-content;
+  }
+ 
+  .Main
+  {
+     background-image:linear-gradient(to bottom, #bfe9ff 0%, #ff6e7f 100%);
+     padding: 25px 25px 25px;
+     border-radius: 10px;
+     
+  }
+
+  
+  .outer
+  {
+     background-color:#ffffff;
+     padding: 10px 25px 20px;
+  }
+
+
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    
+  }
+
+  @media only screen and (max-width:1240px){
+    .header img{
+    margin-left:20%;
+    margin-bottom:2%;
+    }
+    .header h1{
+      margin-left:20%;
+      margin-bottom:2%;
+  }
+  }
+
+
+  @media only screen and (max-width: 768px)
+  {
+    .header img
+    {
+      margin-left:-20%;
+    }
+    .header h1
+    {
+      margin-left:0%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 480px){
+    .header img
+    {
+      margin-left:-40%;
+    }
+    .header h1
+    {
+      margin-left:0%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
